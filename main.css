@@ -1,0 +1,413 @@
+
+/*******************************
+FLEXBOXES
+*******************************/
+
+nav ul {
+  margin: 0;
+  list-style: none; 
+  overflow: hidden;
+  overflow: auto;
+  list-style: none;
+  background-color:#bf1e2e;
+  border-bottom: solid #ffffff;
+}
+
+nav li {
+  margin: 0 70px 0 70px;
+}
+
+nav li a {
+  float: right;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 40px;
+}
+
+nav #white2 {
+  position: absolute;
+  right: 90%;
+  top: -1px;
+}
+
+nav li a:hover {
+  color: black;
+}
+
+nav li img {
+  float: left;
+}
+
+#white2 {
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#homepage {
+  justify-content: flex-start;
+}
+
+#flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  text-align: center;
+  text-decoration: none; 
+}
+
+#flex2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  text-align: center;
+}
+
+#flex3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+/*******************************
+GENERAL
+*******************************/
+
+li a {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+li a:hover {
+
+  color: red;
+  }
+
+
+h1 {
+margin:50 0 80px;
+
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrapper {
+margin: 60px;
+ min-height: 100%;
+  max-width: 100%;
+  margin-left: 100px;
+}  
+
+#wrapper:after {
+  display: block;
+}
+
+a {
+text-decoration: none;
+}
+
+.buttons {
+	background-color:white;
+	font-size: 1em;
+  padding: 20px;
+}
+
+#Com {
+  width: 150px;
+}
+
+#Entre {
+  width: 150px;
+}
+
+img {
+  max-width: 100%;
+}
+
+fieldset { 
+  display: block;
+  float: left;
+  width: 30%;
+  margin: 40px;
+  position: relative;
+  }
+
+img.bw { -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+img.bor { 
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 6px double #404040;
+}
+
+/***********************************************
+PAGE: HOMEPAGE
+************************************************/
+
+#cover {
+  background: #bf1e2e;  
+}
+
+#white {
+  display: block;
+  height: 350px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-top: none;
+
+}
+ 
+#caption_up {
+  text-transform: uppercase;
+  color: white;
+  font-size: 58px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px; 
+}
+
+#caption_down {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+  font-size: 51px;
+  text-align: center;
+  margin-top: -35px;
+}
+
+#author {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+/***********************************************
+PAGE: STAFF
+************************************************/
+
+#flex3 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#flex3 li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#bdc3c7;
+}
+
+/***********************************************
+PAGE: STUDENTS
+************************************************/
+
+#flex {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#flex2 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#flex li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#bdc3c7;
+}
+
+#flex2 li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#bdc3c7;
+}
+
+
+
+/*******************************
+SUBJECT TAGS 
+*******************************/
+
+.subjects {
+  margin: 5px;
+  padding: 10px;
+  width: 100px;
+  border: 2px solid;
+  border-radius: 8px;
+  border: white;
+  color: white;
+
+  display: -webkit-inline-flex;
+  justify-content: center;
+  -webkit-align-content: center;
+  -webkit-align-items: center;
+  flex-flow: column wrap;
+}
+
+/*******************************
+LOGO
+*******************************/
+
+#red {
+  display: block;
+  height: 120px;
+  width: 120px;
+}
+
+ 
+/***********************************************
+  FOOTER
+************************************************/
+
+footer {
+  height: 100px; 
+  margin-top: 140px;
+  background-color:  #bf1e2e;  
+  font-size: 1em; 
+  color: white;
+  overflow: hidden;
+  list-style: none;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+footer a {
+  float: center;
+  margin-bottom: 60px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px 0 5px;
+}
+
+
+/***********************************************
+  CONTACT 
+************************************************/
+
+
+#wrapperTwo {
+ margin: 60px;
+ min-height: 100%;
+margin-bottom: -300px;
+  max-width: 100%;
+  margin-left: 100px;
+}
+
+table  {
+  margin-top:; 100px;
+  position: relative;
+  padding-top: 150px
+  margin-bottom: 100px;
+  margin-left: 100px;
+
+}
+
+#info {
+
+  float: right;
+  position:absolute; 
+  top:175px; 
+  right:400px;
+
+
+}
+
+.contact-info p {
+    
+  margin:0 0 150px;
+  font-size: 2.5em;
+  font-style: normal;
+  text-align:right;
+  color: black;
+  font-style: bold;
+
+}   
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 40px;
+  padding: 10px;
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-info a:hover {
+
+color: red;
+
+}
+
+h3 {
+
+  margin: 0 0 1em 0;
+}
+
+
+/*** trying to do light box text ****/
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}

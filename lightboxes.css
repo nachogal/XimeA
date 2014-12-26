@@ -1,0 +1,30 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+#overlay {
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+#overlay img {
+	margin-top: 10%;
+	width: 50%;
+	height: auto;
+}
+
+#overlay p {
+	color: white;
+}
+
+#overlay:target {
+	outline: none;
+	display: block;
+}
