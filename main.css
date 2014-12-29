@@ -9,7 +9,7 @@ nav ul {
   overflow: hidden;
   overflow: auto;
   list-style: none;
-  background-color:#bf1e2e;
+  background-color:#8E6894;
   border-bottom: solid #ffffff;
 }
 
@@ -92,13 +92,10 @@ GENERAL
 li a {
   text-decoration: none;
   color: black;
-
-
 }
 
 li a:hover {
-
-  color: red;
+  color: #8E6894;
   }
 
 
@@ -113,9 +110,9 @@ html, body {
 
 #wrapper {
 margin: 60px;
- min-height: 100%;
-  max-width: 100%;
-  margin-left: 100px;
+min-height: 100%;
+max-width: 100%;
+margin-left: 100px;
 }  
 
 #wrapper:after {
@@ -169,7 +166,7 @@ PAGE: HOMEPAGE
 ************************************************/
 
 #cover {
-  background: #bf1e2e;  
+  background: #8E6894;  
 }
 
 #white {
@@ -249,7 +246,7 @@ PAGE: STUDENTS
   height:20%;
   margin:2.5%;
   background-color:#f5f5f5;
-  color:#bdc3c7;
+  color:#8E6894;
 }
 
 #flex2 li {
@@ -257,7 +254,7 @@ PAGE: STUDENTS
   height:20%;
   margin:2.5%;
   background-color:#f5f5f5;
-  color:#bdc3c7;
+  color:#8E6894;
 }
 
 
@@ -300,7 +297,7 @@ LOGO
 footer {
   height: 100px; 
   margin-top: 140px;
-  background-color:  #bf1e2e;  
+  background-color:  #8E6894;  
   font-size: 1em; 
   color: white;
   overflow: hidden;
