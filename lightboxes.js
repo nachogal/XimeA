@@ -18,7 +18,7 @@ $overlay.append($quote);
 
 $("body").append($overlay);
 
-$("#flex a").click(function(event) {
+$("#port1 a").click(function(event) {
 	event.preventDefault();
 	var imageLocation = $(this).attr("href");
 
@@ -31,7 +31,7 @@ $("#flex a").click(function(event) {
 
 });		
 
-$("#flex2 a").click(function(event) {
+$("#port2 a").click(function(event) {
 	event.preventDefault();
 	var imageLocation = $(this).attr("href");
 
@@ -44,7 +44,7 @@ $("#flex2 a").click(function(event) {
 
 });
 
-$("#flex3 a").click(function(event) {
+$("#port3 a").click(function(event) {
 	event.preventDefault();
 	var imageLocation = $(this).attr("href");
 
