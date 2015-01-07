@@ -81,7 +81,7 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 /**
@@ -219,8 +219,8 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'Raleway', sans-serif;
-    _font-family: 'Raleway', 'courier new', monospace;
+    font-family: 'Playfair Display', serif;
+    _font-family: 'Playfair Display', 'courier new', monospace;
     font-size: 1em;
 }
 

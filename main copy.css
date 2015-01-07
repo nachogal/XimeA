@@ -112,7 +112,7 @@ html, body {
 text-align: center;
 margin-top: 60px;
 min-height: 100%;
-max-width: 100%;
+max-width: 940px;
 }  
 
 #wrapper:after {
@@ -217,6 +217,7 @@ PAGE: PORTFOLIO
 }
 
 #port1 li {
+  float: left;
   width:20%;
   height:20%;
   margin:2.5%;

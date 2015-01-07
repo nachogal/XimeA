@@ -1,0 +1,266 @@
+/*******************************
+GENERAL
+*******************************/
+
+body {
+ font-family: 'Playfair Display', serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}    
+
+img {
+  max-width:100%;
+}
+
+
+/*******************************
+HEADER
+*******************************/
+
+
+nav #gradient {
+height: 10px;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #8e6894 0%, #cc7098 34%, #f28f8f 65%, #feba72 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(0%,#8e6894), color-stop(34%,#cc7098), color-stop(65%,#f28f8f), color-stop(100%,#feba72)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* IE10+ */
+background: linear-gradient(to right,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#feba72',GradientType=1 ); /* IE6-9 */
+}
+
+header {
+  float: center;
+  margin: 0 0 30px 0;
+  width: 100%;
+}
+
+#ximea {
+  text-align: center;
+  margin: 40px;
+  height: 100px;
+  width: auto;
+}
+
+
+/*****************************
+NAVIGATION
+*****************************/
+
+
+nav {
+  font-size: 20px;
+  text-align: center;
+  color: #ccc;
+} 
+
+nav ul {
+  list-style: none;
+  clear: both;
+  margin: 10px 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;  
+}
+
+nav a {
+  font-weight: 400;
+  padding: 0 25px 0 25px;
+  color: #acacac;
+  letter-spacing: 1px;
+}
+
+nav a.selected {
+  color: #8e6894;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #8e6894;
+}
+
+
+/***********************************************
+PAGE: PORTFOLIO
+************************************************/
+
+
+#port1 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#port1 li {
+  float: left;
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#8E6894;
+}
+
+#port2 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#port2 li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#8E6894;
+}
+
+#port3 {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+#port3 li {
+  width:20%;
+  height:20%;
+  margin:2.5%;
+  background-color:#f5f5f5;
+  color:#8E6894;
+}
+
+
+/***********************************************
+PAGE: ABOUT
+************************************************/
+
+#info { 
+  display:block; 
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 5%;
+  border-bottom: 1px solid #8E6894;
+}
+
+#contact {
+  float: right;
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#xime {
+  border-radius: 350px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#resume1 { 
+  display:block; 
+}
+ 
+.title {
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 30px; 
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 100;
+  font-size: 25px;
+  text-align: left;
+}
+
+.content {
+  color: black;
+  font-size: 17px;
+  font-weight: 100;
+  text-align: left;
+}
+
+
+/***********************************************
+  FOOTER
+************************************************/
+
+footer {
+  height: 100px; 
+  margin-top: 140px;
+  background-color:  #8E6894;  
+  font-size: 1em; 
+  color: white;
+  overflow: hidden;
+  list-style: none;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+footer a {
+  float: center;
+  margin-bottom: 60px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px 0 5px;
+}
+
+
+/***********************************************
+  CONTACT 
+************************************************/
+
+
+#wrapperTwo {
+  margin: 60px;
+  min-height: 100%;
+  margin-bottom: -300px;
+  max-width: 100%;
+  margin-left: 100px;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/*** trying to do light box text ****/
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
