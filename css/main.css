@@ -3,13 +3,12 @@ GENERAL
 *******************************/
 
 body {
- font-family: 'Playfair Display', serif;
-}
+  font-family: 'Josefin Slab', serif;}
 
 #wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+  max-width: 1170px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -38,6 +37,22 @@ background: linear-gradient(to right,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#feba72',GradientType=1 ); /* IE6-9 */
 }
 
+nav #gradient2 {
+border-radius: 100px;
+max-width: 1170px;  
+height: 50px;
+margin-left: auto ;
+margin-right: auto ;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #8e6894 0%, #cc7098 34%, #f28f8f 65%, #feba72 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(0%,#8e6894), color-stop(34%,#cc7098), color-stop(65%,#f28f8f), color-stop(100%,#feba72)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* IE10+ */
+background: linear-gradient(to right,  #1e5799 0%,#8e6894 0%,#cc7098 34%,#f28f8f 65%,#feba72 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#feba72',GradientType=1 ); /* IE6-9 */
+}
+
 header {
   float: center;
   margin: 0 0 30px 0;
@@ -46,8 +61,8 @@ header {
 
 #ximea {
   text-align: center;
-  margin: 40px;
-  height: 100px;
+  margin: 30px;
+  height: 110px;
   width: auto;
 }
 
@@ -58,7 +73,7 @@ NAVIGATION
 
 
 nav {
-  font-size: 20px;
+  font-size: 21px;
   text-align: center;
   color: #ccc;
 } 
@@ -71,23 +86,23 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;  
+  display: inline-block;
+  margin-top: 10px; 
 }
 
 nav a {
   font-weight: 400;
-  padding: 0 25px 0 25px;
-  color: #acacac;
-  letter-spacing: 1px;
+  padding: 0px 25px 0 25px;
+  color: white;
 }
 
-nav a.selected {
-  color: #8e6894;
+nav a:active {
+  color: #FEE6C3;
   text-decoration: underline;
 }
 
 nav a:hover {
-  color: #8e6894;
+  color: #FEE6C3;
 }
 
 
@@ -103,7 +118,6 @@ PAGE: PORTFOLIO
 }
 
 #port1 li {
-  float: left;
   width:20%;
   height:20%;
   margin:2.5%;
@@ -146,50 +160,65 @@ PAGE: ABOUT
 
 #info { 
   display:block; 
-  max-width: 780px;
-  margin: 0 auto;
-  padding: 0 5%;
-  border-bottom: 1px solid #8E6894;
+  padding: 10px 0px 40px 0px;
 }
 
 #contact {
-  float: right;
   list-style: none;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  float: right;
+  padding-left: 20px;
+  color: black;
+  font-size: 17px;
 }
+
+#contact a:link {
+    color: black;
+  }
+
+#contact a:hover {
+    color: #F28F8F;
+    text-decoration: underline;
+  }  
 
 #xime {
   border-radius: 350px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-  height: 200px;
-  width: 200px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  -webkit-box-shadow: 5px 8px 25px 2px rgba(116,98,120,0.4);
+  -moz-box-shadow: 5px 8px 25px 2px rgba(116,98,120,0.4);
+  box-shadow: 5px 8px 25px 2px rgba(116,98,120,0.4);
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+}
+
+.col-xs-12 , .col-md-2 , .container {
+  padding: 0px;
 }
 
 #resume1 { 
-  display:block; 
+  display:block;
+  border-top: 1px solid #8E6894; 
 }
- 
+
 .title {
   color: black;
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 31px;
+  font-weight: 700;
   text-align: left;
-  margin-top: 30px; 
+  margin-top: 20px;
+  margin-bottom: 5px;  
 }
 
 .subtitle {
-  text-transform: uppercase;
   color: black;
-  font-weight: 100;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 22px;
   text-align: left;
+  margin-top: 15px; 
+  margin-bottom: 5px;    
 }
 
 .content {
@@ -199,33 +228,35 @@ PAGE: ABOUT
   text-align: left;
 }
 
+p {
+  margin-bottom: 0px;
+}
+
 
 /***********************************************
   FOOTER
 ************************************************/
 
 footer {
-  height: 100px; 
-  margin-top: 140px;
+  height: 120px; 
+  margin-top: 100px;
   background-color:  #8E6894;  
   font-size: 1em; 
   color: white;
   overflow: hidden;
   list-style: none;
   text-align: center;
-  padding-top: 50px;
-
+  padding: 25px;
 }
 
 footer a {
   float: center;
-  margin-bottom: 60px;
 }
 
 .social-icon {
   width: 30px;
   height: 30px;
-  margin: 5px 5px 0 5px;
+  margin: 5px 5px 10px 5px;
 }
 
 
