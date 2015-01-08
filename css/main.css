@@ -16,7 +16,7 @@ a {
 }    
 
 img {
-  max-width:100%;
+  vertical-align: initial;
 }
 
 
@@ -112,46 +112,100 @@ PAGE: PORTFOLIO
 
 
 #port1 {
-  margin:0;
+  margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center; 
+}
+
+#port1 img {
+  max-width:100%;
 }
 
 #port1 li {
   width:20%;
   height:20%;
   margin:2.5%;
-  background-color:#f5f5f5;
-  color:#8E6894;
+  background-color: white;
 }
 
+#port1 a:link {
+    color: black;
+  }
+
+#port1 a:hover {
+    color: #F28F8F;
+    text-decoration: underline;
+  }  
+
 #port2 {
-  margin:0;
+  margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center; 
+}
+
+#elf {
+  height: 300px;
+  width: auto;
+}
+
+#jimmy {
+  height: 300px;
+  width: auto;
 }
 
 #port2 li {
   width:20%;
   height:20%;
   margin:2.5%;
-  background-color:#f5f5f5;
-  color:#8E6894;
+  background-color: white;
 }
 
+#port2 a:link {
+    color: black;
+  }
+
+#port2 a:hover {
+    color: #F28F8F;
+    text-decoration: underline;
+  }
+
 #port3 {
-  margin:0;
+  margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center; 
+}
+
+#port3 img {
+  max-width:100%;
 }
 
 #port3 li {
   width:20%;
   height:20%;
   margin:2.5%;
-  background-color:#f5f5f5;
-  color:#8E6894;
+  background-color: white;
 }
+
+#port3 a:link {
+    color: black;
+  }
+
+#port3 a:hover {
+    color: #F28F8F;
+    text-decoration: underline;
+  }  
 
 
 /***********************************************
