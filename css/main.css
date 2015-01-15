@@ -219,6 +219,14 @@ video {
   padding-bottom: 20px;
 }
 
+#credits {
+  color: black;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 15px; 
+  margin-bottom: 5px;    
+}
 
 /***********************************************
 PAGE: ABOUT
@@ -264,10 +272,44 @@ PAGE: ABOUT
   padding: 0px;
 }
 
-#resume1 { 
+#all { 
   display:block;
-  border-top: 1px solid #8E6894; 
 }
+
+#line {
+  height: 1px;
+  background: #8E6894;
+}
+
+#resume1 {   
+  padding-right: 50px; 
+}
+
+.download {
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: left;
+  padding-top: 25px; 
+  margin-bottom: 5px;  
+}
+
+.download a {
+  color: black;
+}
+
+.download a:hover {
+  color: #F28F8F;
+  text-decoration: underline;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-delay: initial;
+} 
 
 .title {
   color: black;
