@@ -23,6 +23,11 @@ body{
 	height: auto;
 }
 
+#jimmy {
+	width: 89%;
+	height: auto;
+}
+
 #overlay p {
 	color: white;
 }
